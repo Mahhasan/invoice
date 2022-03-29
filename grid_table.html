@@ -41,7 +41,7 @@
     	    </nav>
 
             <!-- Page Content  -->
-            <div id="content" class="p-4 p-md-5">
+            <div id="content" class="container-fluid containep-4 p-md-5">
 
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
@@ -66,100 +66,117 @@
                         </div>
                     </div>
                 </nav>
-                
-                <!-- Grid Table -->
-                <section>
-                    <div class="container">
-                        <div class="table-responsive-sm text-nowrap">
-                            <table class="table table-bordered border-0 font-weight-bold">
-                                <thead class="border-2">
-                                    <tr>
-                                        <th scope="col">Date</th>
-                                        <th scope="col">H_Desk 1</th>
-                                        <th scope="col">H_Desk 2</th>
-                                        <th scope="col">H_Desk 3</th>
-                                        <th scope="col">D_Desk 1</th>
-                                        <th scope="col">D_Desk 2</th>
-                                        <th scope="col">P_Office 1</th>
-                                        <th scope="col">C_Room 1</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row" class="border-0">OCT 28</th>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
-                                        <td class="table-secondary fs-6"></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row" class="border-0">OCT 29</th>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6">9:00 AM-01:00 PM</td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
-                                        <td class="table-secondary fs-6">2:00 PM-6:00 PM</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row" class="border-0">OCT 30</th>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6">2:00 PM-5:00 PM</td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
-                                        <td class="table-secondary fs-6"></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row" class="border-0">NOV 01</th>
-                                        <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
-                                        <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
-                                        <td class="table-secondary fs-6">2:00 PM-6:00 PM</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row" class="border-0">NOV 02</th>
-                                        <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
-                                        <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
-                                        <td class="table-secondary fs-6"></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row" class="border-0">NOV 03</th>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6">9:00 AM-05:00 PM </br> 2:00 PM-5:00 PM</td>
-                                        <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
-                                        <td class="table-secondary fs-6"></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row" class="border-0">NOV 04</th>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6"></td>
-                                        <td class="table-secondary fs-6">9:00 AM-05:00 PM <br> 2:00 PM-5:00 PM</td>
-                                        <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
-                                        <td class="table-secondary fs-6"></td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                <div class="container">
+                    <div class="btn-group mb-3" style="background-color: #e5e9ec;" role="group" aria-label="Basic example" >
+                        <button type="button" class="btn p-3 border-secondary">Left</button>
+                        <button type="button" class="btn p-3 border-secondary">Left</button>
+                        <button type="button" class="btn p-3 border-secondary">Left</button>
+                        <button type="button" class="btn p-3 border-secondary">Left</button>
+                        <button type="button" class="btn p-3 border-secondary">Left</button>
+                    </div>
+                    <div class="btn-group mb-3" style="background-color: #e5e9ec; margin-left: 20px;" role="group">
+                        <button id="btnGroupDrop1" type="button" class="btn p-3 border-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <a class="dropdown-item border" href="#">Level 12</a>
+                            <a class="dropdown-item" href="#">Level 13</a>
+                            <a class="dropdown-item" href="#">Level 14</a>
                         </div>
                     </div>
-                </section>
+                </div>
+                
+                <!-- Grid Table -->
+                <div class="container">
+                    <div class="table-responsive-sm text-nowrap">
+                        <table class="table table-bordered border-0 font-weight-bold">
+                            <thead class="border-2">
+                                <tr>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">H_Desk 1</th>
+                                    <th scope="col">H_Desk 2</th>
+                                    <th scope="col">H_Desk 3</th>
+                                    <th scope="col">D_Desk 1</th>
+                                    <th scope="col">D_Desk 2</th>
+                                    <th scope="col">P_Office 1</th>
+                                    <th scope="col">C_Room 1</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row" class="border-0">OCT 28</th>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
+                                    <td class="table-secondary fs-6"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="border-0">OCT 29</th>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6">9:00 AM-01:00 PM</td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
+                                    <td class="table-secondary fs-6">2:00 PM-6:00 PM</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="border-0">OCT 30</th>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6">2:00 PM-5:00 PM</td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
+                                    <td class="table-secondary fs-6"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="border-0">NOV 01</th>
+                                    <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
+                                    <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
+                                    <td class="table-secondary fs-6">2:00 PM-6:00 PM</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="border-0">NOV 02</th>
+                                    <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
+                                    <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
+                                    <td class="table-secondary fs-6"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="border-0">NOV 03</th>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6">9:00 AM-05:00 PM </br> 2:00 PM-5:00 PM</td>
+                                    <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
+                                    <td class="table-secondary fs-6"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="border-0">NOV 04</th>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6"></td>
+                                    <td class="table-secondary fs-6">9:00 AM-05:00 PM <br> 2:00 PM-5:00 PM</td>
+                                    <td class="table-secondary fs-6">9:00 AM-05:00 PM</td>
+                                    <td class="table-secondary fs-6"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
 	    </div>
 
